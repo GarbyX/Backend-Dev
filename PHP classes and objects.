@@ -1,0 +1,17 @@
+<?php
+
+// declare a class "Person" 
+
+class Person {
+    public $age;
+    function greet() {
+        echo "Hi!";
+    }
+}
+
+$p1 = new Person();  // object creation from Person class
+$p1->age = 23;       // assignment
+echo $p1->age;       // output to console
+$p1->greet();
+
+?>
