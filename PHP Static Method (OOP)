@@ -1,0 +1,9 @@
+<?php
+class StaticMthd {
+  public static function staticMthd() {
+    echo "This is a static method!";
+  }
+}
+?>
+
+//An instance does not need to be created prior use.
